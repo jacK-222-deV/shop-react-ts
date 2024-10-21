@@ -8,6 +8,7 @@ function App() {
 
   const clickHandler = () => {
     setTodo([...todo, { id: Math.random(), text }]);
+    setText('')
   };
 
   return (
