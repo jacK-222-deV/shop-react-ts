@@ -7,7 +7,7 @@ function App() {
   const [text, setText] = useState([]);
 
   const clickHandler = () => {
-    setTodo([...todo, { id: Math.random(), text }]);
+    setTodo([...todo, { id: 1, text }]);
     setText('')
   };
 
